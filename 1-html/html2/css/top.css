@@ -1,0 +1,152 @@
+/* 共通 */
+body {
+  color: #fff;
+  background-color: #0e0f0e;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+}
+
+.content {
+  height: 100vh;
+  padding: 0 100px;
+}
+
+.content-title {
+  font-size: 2.5rem;
+}
+
+/* header */
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+
+.logo {
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.top-menu {
+  display: flex;
+}
+
+.menu-item {
+  margin-right: 20px;
+}
+
+/* main */
+.main-visual {
+  position: relative;
+}
+
+.main-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-title {
+  font-size: 3rem;
+}
+
+.main-img  {
+  background-image: url('../img/coffee-01.jpg');
+  background-size: cover;
+}
+
+.main-description {
+  font-weight: bold;
+  margin-bottom: 90px;
+}
+
+.main-img {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* about */
+.about {
+  background-color: #666666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-description {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* news */
+.news-title {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.news-description {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.news-link {
+  font-size: 1.5rem;
+}
+
+.news-img {
+  width: 100%;
+}
+
+.news-list {
+  display: flex;
+  justify-content: center;
+}
+
+.news-items {
+  margin-left: 20px;
+}
+
+/* contact */
+.contact-content {
+  text-align: left;
+}
+
+.contact-label {
+  font-size: 1.2rem;
+  margin: 8px 0;
+}
+
+.contact-input {
+  color: wheat;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid wheat;
+  padding: 7px 0;
+}
+
+.contact-textarea {
+  border: 2px solid wheat;
+  box-sizing: border-box;
+}
+
+.contact-btn {
+  color: #fff;
+  background-color: #0099FF;
+  border: 1px solid wheat;
+}

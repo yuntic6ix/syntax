@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyCofee</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/top.css">
+  </head>
+  <body>
+    <div>
+      <header class="header">
+        <h1 class="logo">
+          <a href="index.html">My Coffee</h1>
+        <nav class="nav">
+          <ul class="top-menu">
+            <li class="menu-item"><a href="#about">MyCoffeeとは？</a></li>
+            <li class="menu-item"><a href="#news">新着情報</a></li>
+            <li class="menu-item"><a href="#contact">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="main-visual">
+        <div class="main-text">
+          <h2 class="main-title">家でコーヒーを飲もう</h2>
+          <p class="main-description">家飲みのための上質なコーヒー</p>
+          <p>#MyCoffee</p>
+        </div>
+        <div>
+          <div class="main-img"></div>
+        </div>
+      </div>
+      <section id="about" class="about content">
+        <h3 class="content-title">My Coffeeとは？</h3>
+        <p class="about-description">
+          みなさん、コーヒーは好きですか？<br />
+          MyCoffeeは、家でコーヒーを嗜む方々向けの<strong>
+          コーヒー専門サイト</strong>です。<br />
+          コーヒー好きのみなさんはぜひ、MyCoffeeをご覧ください。
+        </p>
+      </section>
+      <section id="news" class="content">
+        <h3 class="content-title">新着情報</h3>
+        <ol class="news-list">
+          <article>
+            <li class="news-items">
+              <img class="news-img"
+                src="./img/coffee-02.jpg"
+                alt=""
+              />
+              <h4 class="news-title">コーヒーの美味しい飲み方</h4>
+              <p class="news-description">自宅で美味しいコーヒーを飲むには・・・</p>
+            </li>
+          </article>
+          <article>
+            <li class="news-items">
+              <img class="news-img"
+                src="./img/coffee-03.jpg"
+                alt=""
+              />
+              <h4 class="news-title">いいコーヒー豆とは？</h4>
+              <p class="news-description">コーヒー豆を買っていますか？コーヒー・・・</p>
+            </li>
+          </article>
+          <article>
+            <li class="news-items">
+              <img class="news-img"
+                src="./img/coffee-04.jpg"
+                alt=""
+              />
+              <h4 class="news-title">コーヒー豆の栽培方法</h4>
+              <p class="news-description">コーヒー豆の木を見たことがありますか？</p>
+            </li>
+          </article>
+        </ol>
+        <p class="news-link"><a href="./news.html">>>新着情報をもっと見る</a></p>
+      </section>
+      <section id="contact" class="content">
+        <h3 class="content-title">お問い合わせ</h3>
+        <div class="contact-content">
+        <p class="contact-description">サイトに関するお問い合わせはこちら</p>
+        <form action="#" method="POST">
+          <dl>
+            <dt class="contact-label">
+              <label for="username">お名前(必須）：</label></dt>
+            <dd>
+              <input type="text" name="username" id="username" value="" />
+            </dd>
+            <dt class="contact-label">
+              <label for="email">メールアドレス：</label></dt>
+            <dd>
+              <input class="contact-input" type="email" name="email" id="email" value="" /></dd>
+            <dt class="contact-label">
+              <label for="type">お問い合わせ種類：</label></dt>
+            <dd>
+              <select
+              class="contact-input" 
+              name="type" id="type">
+                <option value="1">コーヒーについて</option>
+                <option value="2">その他</option>
+              </select>
+            </dd>
+            <dt class="contact-label">
+              <label for="content">お問い合わせ内容：</label></dt>
+            <dd>
+              <textarea class="contact-input contact-textarea"
+                name="content"
+                id="content"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </dd>
+          </dl>
+          <input class="contact-btn" class="contact-input"
+            type="submit" value="送信する" /></p>
+        </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
