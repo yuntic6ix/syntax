@@ -1,0 +1,36 @@
+.shopping {
+  padding: 20px;
+}
+
+a {
+  display: block;
+}
+
+h1 {
+  background-color: #fce4ec;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.shoppingTitle {
+  background: gray;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 30px;
+  color: wheat;
+  margin-bottom: 10px;
+}
+
+.shoppingCategory {
+  background: rgb(179, 142, 142);
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  color: wheat;
+  margin-bottom: 10px;
+}

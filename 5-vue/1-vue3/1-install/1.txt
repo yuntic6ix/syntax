@@ -1,0 +1,7 @@
+VueのPJを作る方法
+$ npm i -g vite
+$ npm init vite@letest
+Project name: app1
+$ cd app1
+$ nom i
+$ npm run dev
